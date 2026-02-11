@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 # Data Load
-df = pd.read_csv('../../financial_loan_data.csv')
+df = pd.read_csv('financial_loan_data.csv')
 
 
 def model_train():
